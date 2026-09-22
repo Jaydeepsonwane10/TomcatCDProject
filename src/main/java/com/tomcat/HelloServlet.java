@@ -19,8 +19,8 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/html");
 
         PrintWriter out = response.getWriter();
-
-        out.println("<h1>Hello from Jenkins CD - Automatic Deployment</h1>");
-        out.println("<p>GitHub to Jenkins to Tomcat is working!</p>");
+        
+        out.println("<h1>Hello from Jenkins Pipeline</h1>");
+        out.println("<p>Automatic CI/CD deployment is working!</p>");
     }
 }
