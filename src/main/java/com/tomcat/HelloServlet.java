@@ -20,6 +20,7 @@ public class HelloServlet extends HttpServlet {
 
         PrintWriter out = response.getWriter();
         
+       
         out.println("<h1>Hello from Jenkins Pipeline</h1>");
         out.println("<p>Automatic CI/CD deployment is working!</p>");
     }
